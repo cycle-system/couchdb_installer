@@ -52,7 +52,7 @@ echo '#!/bin/bash' >> clouseau.sh
 echo '' >> clouseau.sh
 echo 'export CLASSPATH=/opt/clouseau/lib/*' >> clouseau.sh
 echo '' >> clouseau.sh
-echo 'usr/bin/java -server -Xmx2G -Dsun.net.inetaddr.ttl=30 -Dsun.net.inetaddr.negative.ttl=30 \' >> clouseau.sh
+echo '/usr/bin/java -server -Xmx2G -Dsun.net.inetaddr.ttl=30 -Dsun.net.inetaddr.negative.ttl=30 \' >> clouseau.sh
 echo '-Dlog4j.configuration=file:/opt/clouseau/log4j.properties -XX:OnOutOfMemoryError="kill -9 %p" \' >> clouseau.sh
 echo '-XX:+UseConcMarkSweepGC -XX:+CMSParallelRemarkEnabled com.cloudant.clouseau.Main /opt/clouseau/clouseau.ini' >> clouseau.sh
 

@@ -1,5 +1,6 @@
 #!/bin/bash
 
+sudo apt install zip
 sudo mkdir /opt/clouseau
 
 # Pull the version 2.17.0 of Clouseau plugin

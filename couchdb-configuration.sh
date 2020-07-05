@@ -3,7 +3,7 @@
 # Install dependencies and couchdb
 
 sudo apt-get install -y apt-transport-https gnupg ca-certificates
-echo "deb https://apache.bintray.com/couchdb-deb xenial main" | sudo tee -a /etc/apt/sources.list.d/couchdb.list
+echo "deb https://apache.bintray.com/couchdb-deb bionic main" | sudo tee -a /etc/apt/sources.list.d/couchdb.list
 
 # Install the CouchDB repository key
 
